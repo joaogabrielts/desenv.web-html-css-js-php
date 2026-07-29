@@ -1,0 +1,139 @@
+            <!DOCTYPE html>
+                <html lang="pt-br">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Criando tabelas HTML
+                </title>
+                <style>
+                    *{
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    section{
+                        
+                        padding-top: 10px;
+                    }
+                    .table{
+                        border: 2px solid black;
+                        width: 100%;
+                    }
+                    .linha{
+                                        border: 1px solid black;
+
+                    }
+                    tfoot>tr>td{
+                        text-align: center;
+                        font-weight: bolder;
+                    }
+                </style>
+                </head>
+                <body>
+                    <header>
+                        <h1>Criando tabelas HTML
+                </h1>
+            </header>
+                <main>
+                    <section>
+                        <h2>Tabela sem titulo</h2>
+                        <table>
+                            <tr>
+                                <td>Smith</td>
+                                <td>Html</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>JavaScript</td>
+                                <td>10</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <h2>Tabela com titulo</h2>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p>Smith</p>
+                                </td>
+                                <td>
+                                    <p>HTML</p>
+                                </td>
+                                <td>
+                                    <p>9</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Sunday</p>
+                                </td>
+                                <td>
+                                    <p>JavaScript</p>
+                                </td>
+                                <td>
+                                    <p>10</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <h2>Tabela com Cabeçalho e Rodapé</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th  class="linha"><p>Mês</p></th>
+                                    <th class="linha">Horas/aula</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="linha">Junho</td>
+                                        <td class="linha">50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="linha">
+                                            <p>julho</p>
+                                        </td>
+                                        <td class="linha">
+                                            50
+                                        </td>
+                                    </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="linha">Total</td>
+                                <td class="linha">100</td>
+                            </tr>
+                        </tfoot>
+                        </table>
+                    </section>
+                    <section>
+                        <h2>Tabela Simples (Colspan)</h2>
+                        <table class="table">
+                            <tr>
+                                 <td  class="linha">Aluno</td>
+                                 <td colspan="2" class="linha">Disciplina</td>
+                            </tr>
+                           <tr>
+                                <td  class="linha">Alex</td>
+                                <td class="linha">Html</td>
+                                <td class="linha">Ambiente Web</td>
+                           </tr>
+                        </table>
+                    </section>
+                          <section>
+                        <h2>Tabela Simples (Rowspan)</h2>
+                        <table class="table">
+                            <tr>
+                                 <td  class="linha">Aluno</td>
+                                 <td rowspan="2" class="linha">Disciplina</td>
+                            </tr>
+                           <tr>
+                                <td  class="linha">Alex</td>
+                                <td class="linha">Html</td>
+                                <td class="linha">Ambiente Web</td>
+                           </tr>
+                        </table>
+                    </section>
+                </main>   
+                </body>
+                </html>
