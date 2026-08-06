@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Honk:MORF@15&family=Nabla&display=swap');
+:root{
+font-weight: 400;
+  font-style: normal;
+  --font-principal:'Fontdiner Swanky', cursive;
+   --font-segudaria:'Nabla', system-ui;
+   --font-paragrafo:'Honk', system-ui;
+}
+
+h1{
+    font-family:var(--font-principal);
+    text-align: center;
+}
+p{
+    font-family: var(--font-segudaria);
+    text-align: center;
+}
+
+div{
+    margin-top: 100px;
+    border: 2px solid black;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+#paragrafo{
+ font-family: var(--font-paragrafo);
+ font-size: 30PX;
+ 
+}
