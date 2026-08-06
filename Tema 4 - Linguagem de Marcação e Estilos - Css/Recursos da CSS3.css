@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div > div{
+    padding-top: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+div:hover{
+    background-color: rgba(0, 28, 80, 0.322);
+}
+
+
+#Titulo-principal{
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px 10px 10px 10px;
+    background-color: black;
+    color: hsla(0, 0%, 100%, 0.842);
+    border: 1px solid red;
+} 
+#Titulo-principal:hover{
+    border: 5px solid black;
+    background-color: rgba(190, 3, 3, 0.637);
+    color:white;
+    border-radius: 10px;
+}
+
+#container{
+
+}
+
+#rgb{
+    background-color: rgb(255, 0, 51);
+}
+
+#rgba{
+ background-color: rgb(255, 0, 51,40%);
+}
+
+#hsl{
+     background-color: hsl(0, 100%, 50%);
+}
+
+#hsla{
+     background-color: hsl(0, 100%, 50%, 40%);
+}
+
